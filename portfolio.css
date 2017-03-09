@@ -1,0 +1,143 @@
+body {
+  position: relative;
+}
+.navbar-fixed-top { 
+  position: fixed;
+  background-color: #303030;
+}
+.navbar-brand {
+  padding-top: 15px;
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.navbar-nav {
+  display: inline;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus
+{
+    color: #5F9EA0;
+}
+.navbar-inverse .navbar-nav > li > a:active
+{
+  color: white;
+  background: #5F9EA0;
+}
+.navbar-inverse .navbar-nav > .active a,
+.navbar-inverse .navbar-nav > .active a:hover {
+  color: white;
+  background: #5F9EA0;
+}
+header {
+  text-align: center;
+  background-color: #5F9EA0;
+  color: white;
+}
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+header .center {
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.intro-text .name {
+  font-family: Anton, sans-serif;
+  font-size: 80px;
+}
+.intro-text .skills {
+  font-size: 30px;
+}
+#portfolio .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#portfolio .thumbnail {
+  margin: 10px;
+}
+#portfolio .thumbnail:hover {
+  background-color: #5F9EA0;
+}
+#about {
+  background-color: #5F9EA0;
+  color: white;
+  
+}
+#about .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#about p,
+.portfolio-modal p {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 10px;
+}
+#contact .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+#contact form {
+  font-size: 18px;
+  margin: 10px;
+}
+.btn-default {
+  margin: 10px;
+  background-color: #5F9EA0;
+  color: white;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  background-color: #395E60 !important;
+  color: white !important;
+}
+footer {
+  text-align: center;
+  background-color: #303030;
+  color: white;
+}
+footer .container-fluid {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+h1 {
+  font-family: Anton, sans-serif;
+  font-size: 30px;
+}
+footer ul > li > a {
+    color: white;
+}
+footer ul > li > a:hover,
+footer ul > li > a:focus {
+    color: #5F9EA0;
+}
+footer ul > li > a:active {
+  color: white;
+  background: #5F9EA0;
+  padding: 10px;
+}
+.btn-social {
+  font-size: 20px;
+}
+.portfolio-modal .close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-size: 20px;
+}
+.portfolio-modal .modal-body {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.portfolio-modal img {
+  padding: 20px;
+}
+.portfolio-modal .btn-default {
+  margin: auto;
+}
